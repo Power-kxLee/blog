@@ -1,0 +1,63 @@
+---
+date: 2018-06-15 15:48
+status: public
+title: git常用操作记录
+---
+
+window配置环境变量 `C:\Program Files\Git\cmd`
+
+电脑创建git
+```
+$ git config --global user.name "你的名字"
+$ git config --global user.email "你的邮箱"
+```
+本地目录变成git仓库
+```
+mkdir learngit //创建文件夹
+cd learngit
+
+git init //变成git管理仓库
+
+(xxx为文件)
+
+git add xxx //添加文件到仓库
+
+git commit //提交当前路径下所有改动过的文件
+git commit -m "这里填写备注"
+
+git status //查看有哪些文件被更改
+
+git diff //查看文件被更改了什么
+
+git log //查看版本日志 可选参数 --pretty=oneline
+
+HEAD //表示当前最新版本
+HEAD^ //表示上个版本
+HEAD^^ //上上个版本
+HEAD~100 //上100个版本
+
+git reset //回退版本
+git reset --hard '这里写需要回退的版本信息' // 版本信息可以写版本号 或者几次
+
+
+git reflog //记录了操作的每一个命令
+
+git diff HEAD -- xxx //查看xxx文件 工作区和版本库的区别
+
+git checkout -- xxx //丢弃工作区的修改,还原到版本库一样
+
+git rm -- xxx //删除文件(删除后要发布到版本库)
+```
+
+链接远程仓库
+```
+ssh-keygen -t rsa -C "你的邮箱" //创建SHH key,默认创建后 会在用户这个文件夹下面有个.ssh文件夹,里面有个id_rsa就是秘钥
+
+git remote add origin git@github.com:a578242325/cordova-vue.git //本地工作区链接远程仓库 “origin” 为自定义名称 后面的就是仓库的链接
+
+
+git push -u origin master //把工作区文件推送到远程仓库 第一次推送要加 -u origin就是上面定义的仓库名字
+
+
+git clone //克隆远程仓库
+```

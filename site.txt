@@ -1,0 +1,35 @@
+---
+title: 前端的人走在最前端做前端的事
+keywords: vue,前端博客,前端,JavaScript,优秀博客,html,css,服务端渲染
+avatar: /_image/avatar.jpg
+cover: /_image/cover.jpg
+posts_per_page: 
+post_content_type: markdown
+post_paragraph_indent: no
+file_path: /
+show_toc: yes
+mathjax: no
+disqus: 
+duoshuo: 
+template_priority: auto
+template_inherit: yes
+template_clone_allowed: no
+autoreload: auto
+post_url_format: normal
+scripts_per_page: 
+scripts_for_doc: 
+domain: object.farbox.com
+domains:
+- object.farbox.com
+dns: 
+auto_image: yes
+comment: yes
+sync_by_3rd: no
+sync_by_3rd_public: no
+outside_links_allowed: no
+score_degree: 
+hidden_urls: 
+users: 
+client_date: 1529292585603
+---
+记录日常点滴
