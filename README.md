@@ -4,6 +4,13 @@
 blog小站: [http://object.bitcron.com/](http://object.bitcron.com/)
 ## 目录 
 [感受Proxy的魅力-深拷贝(小白看得懂系列)](https://github.com/Power-kxLee/blog/blob/master/proxy/%E6%84%9F%E5%8F%97Proxy%E7%9A%84%E9%AD%85%E5%8A%9B-%E6%B7%B1%E6%8B%B7%E8%B4%9D(%E5%B0%8F%E7%99%BD%E7%9C%8B%E5%BE%97%E6%87%82%E7%B3%BB%E5%88%97).md)
+
+[从封装el-doalog了解.sync 修饰符](https://github.com/Power-kxLee/blog/blob/master/vue/%E4%BB%8E%E5%B0%81%E8%A3%85el-doalog%E4%BA%86%E8%A7%A3.sync%20%E4%BF%AE%E9%A5%B0%E7%AC%A6.md)
+
+[用qiankun使用vue微前端应用](https://github.com/Power-kxLee/blog/blob/master/vue/%E7%94%A8qiankun%E4%BD%BF%E7%94%A8vue%E5%BE%AE%E5%89%8D%E7%AB%AF%E5%BA%94%E7%94%A8.md)
+
+[在vue-cli中了解Polyfill](https://github.com/Power-kxLee/blog/blob/master/vue/vue-cli-1.md)
+
 [谈谈对象的defineProperty方法 和 Vue的双向绑定](https://github.com/Power-kxLee/blog/blob/master/vue/2021-01-25.md)
 
 [BOM浏览器对象模型](https://github.com/Power-kxLee/blog/blob/master/BOM%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B.md)
